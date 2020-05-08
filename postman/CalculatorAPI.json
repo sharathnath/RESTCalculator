@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "a52a4df5-0679-4349-9815-7835513324ec",
+		"name": "calculatorAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Substract",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/calculator/public/calculate?operation=substract&firstvalue=1&secondvalue=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"calculator",
+						"public",
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "operation",
+							"value": "substract"
+						},
+						{
+							"key": "firstvalue",
+							"value": "1"
+						},
+						{
+							"key": "secondvalue",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/calculator/public/calculate?operation=add&firstvalue=1&secondvalue=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"calculator",
+						"public",
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "operation",
+							"value": "add"
+						},
+						{
+							"key": "firstvalue",
+							"value": "1"
+						},
+						{
+							"key": "secondvalue",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiply",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/calculator/public/calculate?operation=multiply&firstvalue=1&secondvalue=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"calculator",
+						"public",
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "operation",
+							"value": "multiply"
+						},
+						{
+							"key": "firstvalue",
+							"value": "1"
+						},
+						{
+							"key": "secondvalue",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Divide",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/calculator/public/calculate?operation=divide&firstvalue=1&secondvalue=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"calculator",
+						"public",
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "operation",
+							"value": "divide"
+						},
+						{
+							"key": "firstvalue",
+							"value": "1"
+						},
+						{
+							"key": "secondvalue",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SquareRoot",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/calculator/public/calculate?operation=squareroot&firstvalue=25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"calculator",
+						"public",
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "operation",
+							"value": "squareroot"
+						},
+						{
+							"key": "firstvalue",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
